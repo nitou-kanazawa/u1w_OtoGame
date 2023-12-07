@@ -1,0 +1,16 @@
+{
+    "name": "OtoGame.DTO",
+    "rootNamespace": "",
+    "references": [
+        "GUID:307ec94bd3bde63439469747484e97bb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

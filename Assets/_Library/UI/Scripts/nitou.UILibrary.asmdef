@@ -1,0 +1,31 @@
+{
+    "name": "nitou.UILibrary",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:029c1c1b674aaae47a6841a0b89ad80e",
+        "GUID:095430ea2d20be5489851fe259b40e59",
+        "GUID:bc82a1e0d12089947ab95ad4cc6d6616",
+        "GUID:2359c074672083046b6ff6b309700f8e",
+        "GUID:5c9d34007d9ef5d4c961d0814488db9a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.cysharp.unitask",
+            "expression": "",
+            "define": "USN_USE_ASYNC_METHODS"
+        }
+    ],
+    "noEngineReferences": false
+}

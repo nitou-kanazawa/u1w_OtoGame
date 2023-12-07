@@ -1,0 +1,19 @@
+{
+    "name": "Tools.AssemblyDefinitionUtility",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5c9d34007d9ef5d4c961d0814488db9a",
+        "GUID:4006b9ef597d0894eaee4b8a090208dc"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

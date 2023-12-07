@@ -1,0 +1,19 @@
+{
+    "name": "nitou.AnimationStateEx.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5c9d34007d9ef5d4c961d0814488db9a",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
