@@ -1,0 +1,41 @@
+@startuml Project
+skinparam backgroundColor gray
+
+    ' -----------------
+    ' 依存関係
+
+    ' namespace Project.View{
+    '     class Page;
+    '     class Modal;
+
+    '     class AppView;
+    '     class AppViewState;
+
+
+    ' }
+
+
+    namespace Project.View{
+        class SettingModal
+    }
+
+
+   namespace Project.Presentation{
+        interface ITransitionService
+
+        class SettingModalPresenter
+
+        SettingModalPresenter ----> Project.View.SettingModal
+   }
+
+
+    namespace Project.Composition{
+        class ApplicationRoot
+        class TransitionService
+
+        ApplicationRoot --> TransitionService
+        TransitionService ---|> Project.Presentation.ITransitionService
+   }
+
+
+@enduml

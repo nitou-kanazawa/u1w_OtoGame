@@ -22,6 +22,7 @@ namespace OtoGame.Composition {
     /// </summary>
     public sealed class TransitionService : ITransitionService {
 
+        #region 
         // コンテナ
         public PageContainer MainPageContainer { get; private set; }
         public  ModalContainer MainModalContainer { get; private set; }
@@ -44,7 +45,7 @@ namespace OtoGame.Composition {
 
 
         /// ----------------------------------------------------------------------------
-        // Public Methord (起動時)
+        // Public Methord
 
         /// <summary>
         /// コンストラクタ
@@ -67,6 +68,7 @@ namespace OtoGame.Composition {
             _gameStageManager = gameStageManager;
         }
 
+        #endregion
 
         /// ----------------------------------------------------------------------------
         // Public Methord (起動時)

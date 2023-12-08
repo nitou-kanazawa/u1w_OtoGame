@@ -1,0 +1,29 @@
+@startuml Project
+skinparam backgroundColor gray
+
+    ' -----------------
+    ' 依存関係
+
+    (Presenter) -up-> (Model)
+    (Presenter) -up-> (View)
+    (Presenter) -up-> (UseCase)
+    (Presenter) -up-> (LevelObjects)
+
+    (LevelObjects) -up-> (Model)
+
+    (UseCase) -up-> (Model)
+    (UseCase) --> (APIGateway)
+
+    (DTO) --up-> (Model)
+
+
+
+
+
+(OTHERS) --> (Foundataion)
+(OTHERS) --> (Util)
+(OTHERS) <-- (Compositon)
+
+
+
+@enduml
